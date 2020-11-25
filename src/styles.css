@@ -1,1 +1,18 @@
-/* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  background-image: url("https://stackblitz.com/files/angular-word-generator/github/Paramaraj12/angular-word-generator/master/src/utils/bgc.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
