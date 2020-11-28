@@ -1,13 +1,12 @@
 import { Component } from "@angular/core";
 import arrayWords from "../utils/words";
 @Component({
-  selector: "my-app",
+  selector: "app-root",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
   title = "word-generator";
-
   words = "";
   limit = 10;
 
